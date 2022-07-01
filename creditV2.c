@@ -154,12 +154,12 @@ int main(void)
 
     printf("\n\nType 1 and enter to try again, or type anything else and hit enter to exit ;)\n\n");
 
-    fflush(stdin);
-    //while ((getchar()) != '\n');
+    //fflush(stdin);
+    while ((getchar()) != '\n');
     double dummy;
     scanf("%lf", &dummy);
 
-    //while ((getchar()) != '\n');
+    while ((getchar()) != '\n');
     //fflush(stdin);
 
     if (dummy == 1)
